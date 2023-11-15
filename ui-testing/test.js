@@ -9,7 +9,7 @@ describe("Selenium UI Testing", function () {
   firefoxOptions.addArguments("--disable-dev-shm-usage");
   firefoxOptions.addArguments("--disable-gpu");
   let driver;
-  let ip = "localhost";
+  let ip = "172.20.10.2";
   const uncommonPassword = "^GpxRsNHpF!!H6";
   const commonPassword = "password";
 
