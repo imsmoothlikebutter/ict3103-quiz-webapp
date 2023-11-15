@@ -18,7 +18,7 @@ describe("Selenium UI Testing", function () {
       .forBrowser("firefox")
       .setFirefoxOptions(firefoxOptions)
       // If using Remote WebDriver
-      // .usingServer(`http://172.20.10.2:4444/wd/hub`)
+      .usingServer(`http://${ip}:4444/wd/hub`)
       .build();
   });
 
